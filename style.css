@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+a{
+  color: black;
+  text-decoration: none;
+}
+
 body {
   background-color: #f5f5f5;
   color: #0f141e;
@@ -19,5 +24,80 @@ body {
   border-radius: 28px;
   box-shadow: 8px 8px 14px rgba(0, 0, 0, 025);
 }
+.info{
+  margin-bottom: 20px;
+}
+
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  /* word-spacing: 42px; */
+}
+/* Box Model */
+
+.conteiner {
+max-width: 700px;
+margin: auto;
+}
+
+.bg-yellow{
+  background: #fff9dc;
+}
+
+.bg-green{
+  background: #e5ffe7;
+}
+
+.bg-red{
+  background: #ffe5e5 ;
+}
+
+.card{
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+#button_V{
+  color: red;
+}
+
+.list{
+  padding: 0 20px;
+  list-style: none;
+}
+
+.list li{
+  color: #86898f;
+}
+
+.table{
+  width: 100%;
+}
+
+.table td{
+  padding-bottom: 10px;
+}
+
+.table th{
+  padding-bottom: 10px;
+}
+  
+
+/* .table td:nth-child(2){  псевдо-селектор (выделить один объект) */
+  /* color: brown; */
+/* } */
+
+ /* .table tr:nth-child(even - четное/ odd - не четное ){  выделение полосой * */
+  /* background: rebeccapurple;  */
+/* } */
+
+
+
+
 
 /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
